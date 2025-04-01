@@ -1,20 +1,24 @@
-# 💻 Programación 1  
-**Tecnicatura Universitaria en Programación**  
-📍 *Universidad Tecnológica Nacional*  
+# 💻 Programación 1
+**Tecnicatura Universitaria en Programación**
+📍 *Universidad Tecnológica Nacional*
 
-## ✨ Estudiante  
-- **Nombre:** Bruselario, Sebastián *[Modificar con su nombre completo]*  
-- **Comisión:** M2025-7 *[Modificar con su comisión, donde 7 es el número de comisión]*  
+## ✨ Estudiante
+- **Nombre:** *[Tu Nombre Completo]*  
+- **Comisión:** *[Tu Comisión]*  
 
-## 📂 Descripción del Repositorio  
-Este repositorio almacena todas los trabajos prácticos realizados durante la cursada de **Programación 1**.  
+## 📂 Descripción del Repositorio
+Este repositorio contiene todos los trabajos prácticos desarrollados durante la cursada de **Programación 1** en la UTN.
 
-📌 **Estructura del repositorio:**  
-- Cada trabajo está organizado en carpetas individuales.  
-- Los archivos de código fuente (`.py`) incluyen comentarios y estructura adecuada.  
-- Se busca mantener un código limpio, ordenado y bien documentado.  
+📌 **Estructura del repositorio:**
+- Cada trabajo práctico está organizado en carpetas separadas para facilitar su acceso y comprensión.
+- Los archivos de código fuente (`.py`) están comentados y estructurados para mejorar su legibilidad.
+- Se promueve el uso de buenas prácticas de programación y documentación clara.
 
-> ⚠️ **Nota:** Este README y los nombres de los archivos de los trabajos prácticos deben ser actualizados con tus datos personales.
-> 
-> ¡Recuerda mantener actualizado tu repositorio!
+> ⚠️ **Importante:**
+> - Actualiza este README con tu información personal.
+> - Asegúrate de que los nombres de los archivos sean representativos y estén bien organizados.
+> - Mantén tu repositorio actualizado con cada nuevo trabajo práctico.
+
+🚀 ¡Éxito en tu cursada y en tu aprendizaje de Programación 1!
+
 
