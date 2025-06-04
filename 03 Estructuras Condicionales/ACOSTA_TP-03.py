@@ -84,15 +84,48 @@ while True:
 pantalla el mensaje "Ha ingresado una contraseña correcta"; en caso contrario, imprimir por
 pantalla "Por favor, ingrese una contraseña de entre 8 y 14 caracteres". Nota: investigue el uso
 de la función len() en Python para evaluar la cantidad de elementos que tiene un iterable tal
-como una lista o un string. """
+como una lista o un string. 
 
 #Respuesta 
+# Solicita al usuario que ingrese una contraseña
+contraseña = input("Ingrese una contraseña (entre 8 y 14 caracteres): ")
 
+# Verifica la longitud de la contraseña utilizando len()
+if 8 <= len(contraseña) <= 14:
+    print("Ha ingresado una contraseña correcta")
+else:
+    print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
 
 
 
 #Ejercicio 6
 
+import random
+from statistics import mode, median, mean
+
+# Crear una lista de 50 números aleatorios entre 1 y 100
+numeros_aleatorios = [random.randint(1, 100) for i in range(50)]
+
+# Calcular la media, la mediana y la moda
+media = mean(numeros_aleatorios)
+mediana = median(numeros_aleatorios)
+moda = mode(numeros_aleatorios)
+
+# Imprimir los valores
+print(f"Números aleatorios: {numeros_aleatorios}")
+print(f"Media: {media}")
+print(f"Mediana: {mediana}")
+print(f"Moda: {moda}")
+
+# Determinar el sesgo
+if media > mediana and mediana > moda:
+    print("Sesgo positivo a la derecha.")
+elif media < mediana and mediana < moda:
+    print("Sesgo negativo a la izquierda.")
+else:
+    print("Sin sesgo.")
+
+"""
 
 #Ejercicio 7
 
