@@ -18,4 +18,12 @@ while True:
     "2. Si quiere su nombre en minúsculas. Por ejemplo: pedro.\n"
     "3. Si quiere su nombre con la primera letra mayúscula. Por ejemplo: Pedro.\n"
     "Ingrese 1, 2 o 3: "
-)
+    )
+    if opcion == "1":
+        print(nombre.upper())
+    elif opcion == "2":
+        print(nombre.lower())
+    elif opcion == "3":
+        print(nombre.title())
+    else:
+        print("Opcion invalida. Intente nuevamente")        

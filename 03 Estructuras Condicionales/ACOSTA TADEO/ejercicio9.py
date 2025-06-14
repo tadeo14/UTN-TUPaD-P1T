@@ -11,3 +11,23 @@ débiles).
 ● Mayor o igual que 6 y menor que 7: "Muy Fuerte" (puede causar daños significativos).
 ● Mayor o igual que 7: "Extremo" (puede causar graves daños a gran escala).
 """
+#Respuesta 
+
+while True:
+
+    magnitud = int(input("Coloque la magnitud del terremoto: "))
+
+    if magnitud < 3:
+        print("Muy leve (imperceptible)")
+    elif 3 <= magnitud < 4:
+        print ("Leve (ligeramente perceptible)")
+    elif 4 <= magnitud < 5:
+        print ("Moderado (sentido por personas, pero generalmente no causa daños)")
+    elif 5 <= magnitud < 6:
+        print("Fuerte (puede causar daños en estructuras débiles)")
+    elif 6 <= magnitud < 7:
+        print ("Muy fuerte (puede causar daños significativos)")
+    elif magnitud >= 7:
+        print("Extremo (puede causar graves daños a gran escala)")
+    else:
+        print("Ingreso una magnitud incorrecta.")
