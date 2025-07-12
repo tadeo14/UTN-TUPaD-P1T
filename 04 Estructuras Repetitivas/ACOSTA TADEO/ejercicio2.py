@@ -4,4 +4,7 @@
 dígitos que contiene."""
 
 #Respuesta 
+numero = int(input("Ingrese un número entero: "))
+
+print(f"El numero {numero} tiene {len(str(abs(numero)))} dígitos.")
 
