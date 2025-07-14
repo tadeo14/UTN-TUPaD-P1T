@@ -6,3 +6,12 @@ poder procesar 100 números cambiando solo un valor).
 """
 #Respuesta 
 
+for i in range(10):
+    numero = int(input(f"Ingrese el número {i + 1}: "))
+    
+    if i == 0:
+        suma = numero
+    else:
+        suma += numero
+        media = suma / (i + 1)
+print(f"La media de los números ingresados es: {media:.2f}")
